@@ -3,7 +3,7 @@ This Python project will solve Einstein riddle with the help of trial n' error a
 
 ## The Situation:
 <center><a href="https://www.youtube.com/watch?v=1rDVz_Fb6HQ">
-<img src="https://i.imgur.com/zEZTUJk.gif" height="360">
+<img src="https://i.imgur.com/zEZTUJk.gif" height="360">Make yourself at home!
 </a></center>
 
 

@@ -5,7 +5,7 @@ This Python project will solve Einstein riddle with the help of trial n' error a
 <center><a href="https://www.youtube.com/watch?v=1rDVz_Fb6HQ">
 <img src="https://i.imgur.com/zEZTUJk.gif" height="360">
 </a></center>
-<div style="text-align:center">Click for explanation video</div>
+<div style="text-align:center"><center><a href="https://www.youtube.com/watch?v=1rDVz_Fb6HQ">Click for explanation video</div>
 
 ## The Clues:
 There are five houses in five different colors in a row. In each house lives a person with a different nationality. The five owners drink a certain type of beverage, smoke a certain brand of cigar and keep a certain pet. No owners have the same pet, smoke the same brand of cigar, or drink the same beverage. Other facts:

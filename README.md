@@ -1,7 +1,7 @@
 # Can you solve Einstein's Riddle?
 This Python project will solve the riddle with the help of trial n' error and a little of AI. Check the code inside.
 
-Source code click here
+[Source code click here](https://github.com/engrbugs/Einstein.Riddle/blob/master/Einstein.Riddle.py "Source Code")
 
 ## The Situation:
 <center><a href="https://www.youtube.com/watch?v=1rDVz_Fb6HQ">
@@ -36,7 +36,7 @@ The question is: who owns the fish?
 
 ## The Process:
 At first, the computer just follow all the clues given. If not on the data yet, just assume the data. This until all cluse are true. 
-Check the computer log file. Here.
+Check the computer log file. [Output file here.](https://github.com/engrbugs/Einstein.Riddle/blob/master/output.txt "Output file")
 ******************************
 RUN TEST # 1 :
 <table class="tg">

@@ -1,5 +1,7 @@
-# Can you solve Einstein Riddle?
-This Python project will solve Einstein riddle with the help of trial n' error and a little AI. Check the code inside.
+# Can you solve Einstein's Riddle?
+This Python project will solve the riddle with the help of trial n' error and a of little AI. Check the code inside.
+
+Source code click here
 
 ## The Situation:
 <center><a href="https://www.youtube.com/watch?v=1rDVz_Fb6HQ">
@@ -14,7 +16,7 @@ There are five houses in five different colors in a row. In each house lives a p
 3. The Dane drinks tea. 
 4. The green house is on the immediate left of the white house. 
 5. The green house's owner drinks coffee. 
-6. The owner who smokes Pall Mall rears birds. 
+6. The owner who smokes Pall Mall owns birds. 
 7. The owner of the yellow house smokes Dunhill. 
 8. The owner living in the center house drinks milk. 
 9. The Norwegian lives in the first house. 
@@ -26,3 +28,9 @@ There are five houses in five different colors in a row. In each house lives a p
 15. The owner who smokes Blends lives next to the one who drinks water. 
 
 The question is: who owns the fish?
+
+## Computation:
+<center>
+<img src="https://i.imgur.com/QhpVnUW.gif" height="240">
+</center>Einstein.Riddly.py running on Pycharm IDE
+

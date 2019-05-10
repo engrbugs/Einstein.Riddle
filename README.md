@@ -1,5 +1,5 @@
 # Can you solve Einstein's Riddle?
-This Python project will solve the riddle with the help of trial n' error and a of little AI. Check the code inside.
+This Python project will solve the riddle with the help of trial n' error and a little of AI. Check the code inside.
 
 Source code click here
 
@@ -34,3 +34,2615 @@ The question is: who owns the fish?
 <img src="https://i.imgur.com/QhpVnUW.gif" height="240">
 </center>Einstein.Riddly.py running on Pycharm IDE
 
+## The Process:
+At first, the computer just follow all the clues given. If not on the data yet, just assume the data. This until all cluse are true. 
+Check the computer log file. Here.
+******************************
+RUN TEST # 1 :
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:12px;padding:2px 1px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:12px;font-weight:normal;padding:2px 1px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Data:</th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">RED</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">BRIT</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">SWEDE</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">DOG</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">YELLOW</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">DUNHILL</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BLUE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GREEN</td>
+    <td class="tg-0pky">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">NORWEGIAN</td>
+    <td class="tg-0pky">DANE</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">GERMAN</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">PALLMALL</td>
+    <td class="tg-0pky">PRINCE</td>
+    <td class="tg-0pky">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">TEA</td>
+    <td class="tg-0pky">MILK</td>
+    <td class="tg-0pky">COFFEE</td>
+    <td class="tg-0pky">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">BIRD</td>
+    <td class="tg-0pky">empty</td>
+    <td class="tg-0pky">empty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Confirmed:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">0</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Connection1:</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">color</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">14</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">national</td>
+    <td class="tg-0pky">9</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">0</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">cigar</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">6</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">12</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">drink</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">8</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">12</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pet</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">6</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+  </tr>
+</table>
+Until...
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:12px;padding:2px 1px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:12px;font-weight:normal;padding:2px 1px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0lax">RUN</th>
+    <th class="tg-0lax">TEST</th>
+    <th class="tg-0lax">#</th>
+    <th class="tg-0lax">32</th>
+    <th class="tg-0lax">:</th>
+    <th class="tg-0lax"></th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">empty</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">FISH</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Data:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">YELLOW</td>
+    <td class="tg-0lax">BLUE</td>
+    <td class="tg-0lax">RED</td>
+    <td class="tg-0lax">GREEN</td>
+    <td class="tg-0lax">WHITE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">NORWEGIAN</td>
+    <td class="tg-0lax">DANE</td>
+    <td class="tg-0lax">BRIT</td>
+    <td class="tg-0lax">GERMAN</td>
+    <td class="tg-0lax">SWEDE</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">DUNHILL</td>
+    <td class="tg-0lax">BLENDS</td>
+    <td class="tg-0lax">PALLMALL</td>
+    <td class="tg-0lax">PRINCE</td>
+    <td class="tg-0lax">BLUEMASTER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">WATER</td>
+    <td class="tg-0lax">TEA</td>
+    <td class="tg-0lax">MILK</td>
+    <td class="tg-0lax">COFFEE</td>
+    <td class="tg-0lax">ROOTBEER</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">CAT</td>
+    <td class="tg-0lax">HORSE</td>
+    <td class="tg-0lax">BIRD</td>
+    <td class="tg-0lax">FISH</td>
+    <td class="tg-0lax">DOG</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Confirmed:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Connection1:</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">color</td>
+    <td class="tg-0lax">7</td>
+    <td class="tg-0lax">14</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">national</td>
+    <td class="tg-0lax">9</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">13</td>
+    <td class="tg-0lax">2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">cigar</td>
+    <td class="tg-0lax">7</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">6</td>
+    <td class="tg-0lax">13</td>
+    <td class="tg-0lax">12</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">drink</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">8</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">12</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">pet</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">7</td>
+    <td class="tg-0lax">6</td>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">2</td>
+  </tr>
+</table>
+
+The guy who steal the FISH is the GERMAN who has GREEN walls in his house, and likes to smoke PRINCE cigar. He also drinks COFFEE regularly.
+
+
+Done Finish. In 32 runs.
